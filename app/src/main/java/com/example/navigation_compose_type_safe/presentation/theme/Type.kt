@@ -1,4 +1,4 @@
-package com.example.navigation_compose_type_safe.ui.theme
+package com.example.navigation_compose_type_safe.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
