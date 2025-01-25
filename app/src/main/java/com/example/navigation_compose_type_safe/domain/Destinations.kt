@@ -12,4 +12,10 @@ sealed class Destinations {
         val age: Int
     ) : Destinations()
 
+    @Serializable
+    data object UsersScreen : Destinations()
+
+
+    @Serializable
+    data class UserDetailsScreen(val user: User, val userType: UserType) : Destinations()
 }
